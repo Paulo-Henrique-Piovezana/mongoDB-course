@@ -2,11 +2,10 @@ package com.piovezanapaulo.cursomongo.resources.exception;
 
 import java.io.Serializable;
 
-public class StandardError implements Serializable{
-
+public class StandardError implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long timestamp;
 	private Integer status;
 	private String error;
@@ -64,7 +63,5 @@ public class StandardError implements Serializable{
 	public void setPath(String path) {
 		this.path = path;
 	}
-	
-	
 
 }
